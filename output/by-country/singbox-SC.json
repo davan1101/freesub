@@ -6,8 +6,8 @@
     {
       "type": "vless",
       "tag": "🇸🇨 塞舌尔 (Seychelles) 01 - xiaohe",
-      "server": "172.64.52.6",
-      "server_port": 2086,
+      "server": "172.64.158.146",
+      "server_port": 2095,
       "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
       "transport": {
         "type": "ws",
@@ -20,8 +20,8 @@
     {
       "type": "vless",
       "tag": "🇸🇨 塞舌尔 (Seychelles) 02 - xiaohe",
-      "server": "162.159.24.131",
-      "server_port": 8880,
+      "server": "162.159.43.187",
+      "server_port": 80,
       "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
       "transport": {
         "type": "ws",
@@ -34,12 +34,38 @@
     {
       "type": "vless",
       "tag": "🇸🇨 塞舌尔 (Seychelles) 03 - xiaohe",
-      "server": "104.18.0.1",
-      "server_port": 443,
-      "uuid": "3ccba794-1c6d-48a8-acf2-f5caf0e69d86",
+      "server": "104.21.19.76",
+      "server_port": 2096,
+      "uuid": "fee1da7e-a258-4456-8e5e-8ecf6518ed12",
       "tls": {
         "enabled": true,
-        "server_name": "all.speedtest03.ccwu.cc",
+        "server_name": "ez-82c7e7.aBoBaBA.WorkeRS.dEv",
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/eyJqdW5rIjoiemxGMEFDU1VDRyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0",
+        "headers": {
+          "Host": "ez-82c7e7.abobaba.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇨 塞舌尔 (Seychelles) 04 - xiaohe",
+      "server": "104.16.72.30",
+      "server_port": 443,
+      "uuid": "a8b1d666-d3ba-4b17-90c4-ba7514c74f78",
+      "tls": {
+        "enabled": true,
+        "server_name": "xstack.mahanfixe.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -48,27 +74,27 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "/xiron",
         "headers": {
-          "Host": "all.speedtest03.ccwu.cc"
+          "Host": "xstack.mahanfixe.workers.dev"
         }
       }
     },
     {
       "type": "hysteria2",
-      "tag": "🇸🇨 塞舌尔 (Seychelles) 04 - xiaohe",
+      "tag": "🇸🇨 塞舌尔 (Seychelles) 05 - xiaohe",
       "server": "138.124.0.168",
       "server_port": 8080,
       "password": "h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT",
       "tls": {
         "enabled": true,
         "server_name": "hopp-legend-se.roxa.org",
-        "insecure": false
+        "insecure": true
       }
     },
     {
       "type": "vless",
-      "tag": "🇸🇨 塞舌尔 (Seychelles) 05 - xiaohe",
+      "tag": "🇸🇨 塞舌尔 (Seychelles) 06 - xiaohe",
       "server": "156.226.168.221",
       "server_port": 35193,
       "uuid": "35cbae61-ee10-4cb9-abb8-4950b35e9851",
@@ -96,7 +122,8 @@
         "🇸🇨 塞舌尔 (Seychelles) 02 - xiaohe",
         "🇸🇨 塞舌尔 (Seychelles) 03 - xiaohe",
         "🇸🇨 塞舌尔 (Seychelles) 04 - xiaohe",
-        "🇸🇨 塞舌尔 (Seychelles) 05 - xiaohe"
+        "🇸🇨 塞舌尔 (Seychelles) 05 - xiaohe",
+        "🇸🇨 塞舌尔 (Seychelles) 06 - xiaohe"
       ]
     },
     {
@@ -107,7 +134,8 @@
         "🇸🇨 塞舌尔 (Seychelles) 02 - xiaohe",
         "🇸🇨 塞舌尔 (Seychelles) 03 - xiaohe",
         "🇸🇨 塞舌尔 (Seychelles) 04 - xiaohe",
-        "🇸🇨 塞舌尔 (Seychelles) 05 - xiaohe"
+        "🇸🇨 塞舌尔 (Seychelles) 05 - xiaohe",
+        "🇸🇨 塞舌尔 (Seychelles) 06 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

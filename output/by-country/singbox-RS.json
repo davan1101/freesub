@@ -5,21 +5,24 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇳🇴 挪威 (Norway) 01 - xiaohe",
-      "server": "46.29.238.88",
-      "server_port": 40443,
-      "uuid": "db320947-adfb-400d-b60b-383b8324bffe",
+      "tag": "🇷🇸 塞尔维亚 (Serbia) 01 - xiaohe",
+      "server": "104.24.31.89",
+      "server_port": 443,
+      "uuid": "aebe5a70-0ca3-46ce-8208-8b5bab1346ce",
       "tls": {
         "enabled": true,
-        "server_name": "deepl.com",
+        "server_name": "rAyAn-007.nAsTaRaN.DpDnS.OrG",
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "aZOpodpnifoxDqTzWgxJRffgsiGnG9-h-EZd4SvOImc",
-          "short_id": "f7b2"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "rayan-007.nastaran.dpdns.org"
         }
       }
     },
@@ -28,14 +31,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇳🇴 挪威 (Norway) 01 - xiaohe"
+        "🇷🇸 塞尔维亚 (Serbia) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇳🇴 挪威 (Norway) 01 - xiaohe"
+        "🇷🇸 塞尔维亚 (Serbia) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
